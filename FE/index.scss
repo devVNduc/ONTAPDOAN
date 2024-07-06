@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  #garden {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    background-color: green;
+    #part {
+      width: 100%;
+      height: 100%;
+      border: 1px solid black;
+      background-color: red;
+    }
+    #part {
+      grid-column-start: 1;
+      grid-column-end: 4;
+    }
+  }
+}
